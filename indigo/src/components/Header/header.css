@@ -1,0 +1,115 @@
+:root {
+    --heading-color: #333; /* Example color, change as needed */
+    --secondary-color: #007bff; /* Example color, change as needed */
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: #f8f9fa; /* You can change this to your preferred background color */
+    position: fixed; /* Keeps the header fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures the header stays above other elements */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+.logo img {
+    width: 100px; /* Adjust the logo size as needed */
+    margin-left: 10px; /* Adjust the left margin if needed */
+}
+
+.menu {
+    margin-bottom: 0;
+    list-style: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+    display: flex;
+    align-items: center;
+}
+
+.nav__item a {
+    text-decoration: none;
+    color: var(--heading-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease; /* Smooth transition for color change on hover */
+    margin: 30px;
+}
+
+.nav__item a:hover,
+.nav__item a.active__link {
+    color: var(--secondary-color);
+}
+
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Adjust the gap between elements as needed */
+}
+
+.nav__btns {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Adjust the gap between buttons as needed */
+}
+
+.nav__btn-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.secondary__btn {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.secondary__btn:hover {
+    background-color: #0056b3; /* Adjusted for better compatibility */
+}
+
+.mobile__menu {
+    font-size: 1.3rem;
+    color: var(--heading-color);
+    display: none;
+    cursor: pointer; /* Adds a pointer cursor on hover */
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .navigation {
+        display: none; /* Hides the navigation on smaller screens */
+    }
+
+    .mobile__menu {
+        display: block; /* Shows the mobile menu icon on smaller screens */
+    }
+}
+
+.sticky__header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    z-index: 999;
+}

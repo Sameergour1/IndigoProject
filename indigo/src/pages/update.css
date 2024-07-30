@@ -1,0 +1,54 @@
+/* update.css */
+
+.update-container {
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .update-container h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .update-container .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .update-container label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .update-container input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .update-container button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .update-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .update-container {
+      padding: 1rem;
+    }
+  
+    .update-container h2 {
+      font-size: 1.25rem;
+    }
+  }
+  

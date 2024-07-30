@@ -1,0 +1,76 @@
+.home {
+    width: 100%;
+    height: 100vh; /* Make it cover the full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-image {
+    background: url('https://media.cntraveler.com/photos/57f50db6ed4dcfe84d322286/16:9/w_2560%2Cc_limit/boy-child-on-airplane-GettyImages-531942881.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* White text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow to the text for better readability */
+}
+
+.description {
+    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.description h1 {
+    font-size: 3rem; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 1.2rem; /* Adjust as needed */
+    line-height: 1.5;
+}
+
+
+
+
+.home {
+    width: 100%;
+    height: 100vh; /* Make it cover the full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-image {
+    background: url('https://media.cntraveler.com/photos/57f50db6ed4dcfe84d322286/16:9/w_2560%2Cc_limit/boy-child-on-airplane-GettyImages-531942881.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* White text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow to the text for better readability */
+}
+
+.description {
+    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.description h1 {
+    font-size: 3rem; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-size: 1.2rem; /* Adjust as needed */
+    line-height: 1.5;
+}

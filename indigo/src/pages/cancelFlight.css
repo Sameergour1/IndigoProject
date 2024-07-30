@@ -1,0 +1,54 @@
+/* cancelFlight.css */
+
+.cancel__flight {
+    background: #f0f4f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  .cancel__flight h2 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .cancel__flight label {
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+    color: #333;
+  }
+  
+  .cancel__flight input, 
+  .cancel__flight textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 0.875rem;
+    margin-bottom: 15px;
+  }
+  
+  .cancel__flight input:focus, 
+  .cancel__flight textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .cancel__flight button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel__flight button:hover {
+    background-color: #0056b3;
+  }
+  

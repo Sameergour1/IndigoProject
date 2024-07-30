@@ -1,0 +1,83 @@
+/* login.css */
+
+/* Ensure the body or main container has sufficient padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Adjust the container to fit well within the page */
+  .login-container {
+    padding: 2rem;
+    margin: 2rem auto; /* Center container horizontally */
+    max-width: 400px; /* Adjust based on form size */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative; /* Relative positioning to ensure positioning is within parent */
+  }
+  
+  /* Ensure proper spacing from header */
+  body {
+    padding-top: 60px; /* Adjust based on header height */
+  }
+  
+  /* Adjust heading style */
+  .login-container h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    color: #333;
+  }
+  
+  /* Form Group Margin */
+  .login-container .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  /* Label Style */
+  .login-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  /* Input Field Style */
+  .login-container input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Button Style */
+  .login-container button {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Button Hover Effect */
+  .login-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .login-container {
+      padding: 1rem;
+    }
+  
+    .login-container h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
